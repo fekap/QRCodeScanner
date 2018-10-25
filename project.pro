@@ -1,6 +1,6 @@
 TEMPLATE = subdirs
 
-SUBDIRS = qzxing \
-    QRCodeScanner
+SUBDIRS = qzxing/QZXing.pro \
+             QRCodeScanner
 
 CONFIG += ordered
